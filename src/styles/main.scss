@@ -1,8 +1,19 @@
-*{
-  background-color: lightgray;
+
+h1{
+  color: black;
 }
 
-.app-main-div{
+
+//NAV
+.nav-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.nav-link{
+  margin: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- 
+  text-decoration: none;
 }
